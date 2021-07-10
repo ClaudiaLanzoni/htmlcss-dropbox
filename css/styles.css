@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+ul {
+    display: inline-block;
+}
+
+ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 18px;
+}
+
+ul li:last-child {
+    margin-right: 0;
+}
+
+.container-header {
+    max-width: 2000px;
+    margin: 0;
+}
+
+.barra-menu {
+    height: 80px;
+    padding: 25px 15px;
+}
+
+.logo-dropbox img {
+    vertical-align: middle;
+}
+
+.first-half-menu {
+    width: 69%;
+}
+
+.button {
+    padding: 5px 15px;
+    border: none;
+    background-color: dodgerblue;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.jumbotron {
+    background-color: rgb(171, 210, 235);
+    height: 550px;
+}
