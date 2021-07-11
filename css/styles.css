@@ -9,11 +9,11 @@ body {
     font-size: 14px;
 }
 
-ul {
+.barra-menu ul {
     display: inline-block;
 }
 
-ul li {
+.barra-menu ul li {
     display: inline-block;
     vertical-align: middle;
     margin-right: 18px;
@@ -74,10 +74,38 @@ ul li:last-child {
     font-size: 13px;
 }
 
-.business {
-    height: 500px;
-    width: 100%;
+.db-business {
+    height: 100%;
+    width: 70%;
+    margin: auto;
     background-color: rosybrown;
+    padding-top: 150px;
+}
+
+.db-business h1 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.radio-buttons {
+    margin-bottom: 20px;
+}
+
+.column {
+    height: 800px;
+    width: 33.3%;
+}
+
+.professional-col {
+    background-color: teal;
+}
+
+.standard-col {
+    background-color: burlywood;
+}
+
+.advanced-col {
+    background-color: cornflowerblue;
 }
 
 .clearfix::after {
