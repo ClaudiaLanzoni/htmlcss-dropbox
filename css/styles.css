@@ -100,6 +100,10 @@ ul li:last-child {
     margin: 0 55px 0 55px;
 }
 
+.advanced-col {
+    margin-bottom: 50px;
+}
+
 .piano-header {
     height: 35px;
     width: 300px;
@@ -123,6 +127,10 @@ ul li:last-child {
 
 .piano-content h2 {
     margin-bottom: 20px;
+}
+
+.piano-content a {
+    color: dodgerblue;
 }
 
 .piano-content-hr {
@@ -175,6 +183,36 @@ ul li:last-child {
 
 .fa-check {
     color: dodgerblue;
+}
+
+.contatti-section {
+    width: 100%;
+    height: 210px;
+    border: 1px solid rgb(201, 189, 189);
+}
+
+.contatti-section-header {
+    height: 35px;
+    border-bottom: 1px solid rgb(201, 189, 189);
+    text-align: center;
+    line-height: 35px;
+    font-size: 1,5em;
+}
+
+.contatti-section-header>h2 {
+    margin: 35px 0 25px 25px;
+}
+
+.contatti-section-title {
+    margin-bottom: 15px
+}
+
+.contatti-section-content {
+    margin: 30px;
+}
+
+.contatti-section-content>h4 {
+    margin-bottom: 30px;
 }
 
 .clearfix::after {
