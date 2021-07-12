@@ -189,6 +189,7 @@ ul li:last-child {
     width: 100%;
     height: 210px;
     border: 1px solid rgb(201, 189, 189);
+    margin-bottom: 150px;
 }
 
 .contatti-section-header {
@@ -213,6 +214,36 @@ ul li:last-child {
 
 .contatti-section-content>h4 {
     margin-bottom: 30px;
+}
+
+.partner-section {
+    height: 100%;
+    width: 75%;
+    margin: auto;
+}
+
+.partner-section>img {
+    width: 60%;
+    height: 100%;
+}
+
+.partner-section-content {
+    width: 35%;
+    margin: 35px 0 35px 35px;
+}
+
+.partner-section-content>h2 {
+    margin-bottom: 25px;
+}
+
+.partner-section-content>p {
+    margin-bottom: 20px;
+}
+
+.partner-button {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
 }
 
 .clearfix::after {
