@@ -18,6 +18,11 @@ a {
     color: dodgerblue;
 }
 
+hr {
+    color: rgb(201, 189, 189);
+    width: 45px;
+}
+
 .barra-menu ul {
     display: inline-block;
 }
@@ -131,11 +136,6 @@ ul li:last-child {
 
 .piano-content h2 {
     margin-bottom: 20px;
-}
-
-.piano-content-hr {
-    color: rgb(201, 189, 189);
-    width: 45px;
 }
 
 .piano-price {
@@ -281,10 +281,45 @@ ul li:last-child {
     height: 100%;
     width: 75%;
     margin: auto;
+    margin-bottom: 40px;
 }
 
 .team-section-header>h1 {
     width: 50% ;
+}
+
+.team-section-content {
+    width: 100%;
+    background-color: rgb(175, 224, 127);
+}
+
+.logos-col {
+    width: 30%;
+    height: 330px;
+    background-color: darkcyan;
+}
+
+.designit-col {
+    width: 40%;
+    height: 330px;
+    background-color: darkorange;
+}
+
+.row-logos {
+    height: 50%;
+    width: 100%;
+}
+
+.row-logos-content {
+    height: 30%;
+    width: 50%;
+    margin: auto;
+}
+
+.row-logos-content img {
+    height: 30%;
+    width: 30%;
+    
 }
 
 .underline {
