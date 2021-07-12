@@ -373,6 +373,31 @@ ul li:last-child {
     color: black;
 }
 
+.faq-section {
+    width: 75%;
+    height: 100%;
+    margin: 100px 120px;
+}
+
+.faq-section>h2 {
+    margin-bottom: 40px;
+}
+
+.faq-section-row {
+    height: 80px;
+    border-top: 1px solid rgb(201, 189, 189);
+    line-height: 80px;
+}
+
+.faq-section h4:last-of-type {
+    border-bottom: 1px solid rgb(201, 189, 189);
+}
+
+.fa-angle-down {
+    line-height: 80px;
+    margin-right: 40px;
+}
+
 .underline {
     text-decoration: underline;
 }
