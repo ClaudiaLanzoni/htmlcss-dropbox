@@ -76,9 +76,8 @@ ul li:last-child {
 
 .db-business {
     height: 100%;
-    width: 70%;
+    width: 75%;
     margin: auto;
-    background-color: rosybrown;
     padding-top: 150px;
 }
 
@@ -92,20 +91,90 @@ ul li:last-child {
 }
 
 .column {
-    height: 800px;
-    width: 33.3%;
-}
-
-.professional-col {
-    background-color: teal;
+    height: 1000px;
+    width: 300px;
+    border: 1px solid rgb(201, 189, 189);
 }
 
 .standard-col {
-    background-color: burlywood;
+    margin: 0 55px 0 55px;
 }
 
-.advanced-col {
-    background-color: cornflowerblue;
+.piano-header {
+    height: 35px;
+    width: 300px;
+    border-bottom: 1px solid rgb(201, 189, 189);
+    text-align: center;
+    line-height: 35px;
+    font-size: 1,5em;
+}
+
+.piano-content {
+    padding: 30px 25px 200px 25px;
+}
+
+.piano-content ul {
+    list-style-type: none;
+}
+
+/*.piano-content li {    CHE TIPO DI ALIGN PER FARLI INIZIARE TUTTI DALLO STESSO PUNTO?
+    text-align: ;
+}*/
+
+.piano-content h2 {
+    margin-bottom: 20px;
+}
+
+.piano-content-hr {
+    color: rgb(201, 189, 189);
+    width: 45px;
+}
+
+.piano-price {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.piano-mese {
+    color: gray;
+    margin-bottom: 40px;
+}
+
+.piano-content :nth-child(4) {
+    margin-bottom: 20px;
+}
+
+.piano-content :nth-child(5) {
+    margin-bottom: 20px;
+}
+
+.piano-content :nth-child(6) {
+    margin-bottom: 40px;
+}
+
+.piano-content :nth-child(7) {
+    margin-bottom: 25px;
+}
+
+.piano-content :nth-child(8) {
+    margin-bottom: 25px;
+}
+
+.piano-content :nth-child(9) {
+    margin-bottom: 35px;
+}
+
+.piano-content h4 {
+    margin-bottom: 25px;
+}
+
+.piano-content li {
+    margin-bottom: 25px;
+}
+
+.fa-check {
+    color: dodgerblue;
 }
 
 .clearfix::after {
