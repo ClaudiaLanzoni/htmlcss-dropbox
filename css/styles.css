@@ -311,15 +311,34 @@ ul li:last-child {
 }
 
 .row-logos-content {
-    height: 30%;
+    height: 100%;
     width: 50%;
-    margin: auto;
 }
 
-.row-logos-content img {
-    height: 30%;
-    width: 30%;
-    
+
+.centered {
+    text-align: center;
+}
+
+
+.centered img {
+    width: 50px;
+}
+
+.log1 {
+    background-color: fuchsia;
+}
+
+.log2 {
+    background-color: greenyellow;
+}
+
+.log3 {
+    background-color:rgb(171, 210, 235);
+}
+
+.log4 {
+    background-color: rgb(57, 209, 123);
 }
 
 .underline {
