@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 h1 {
@@ -18,8 +18,9 @@ a {
     color: dodgerblue;
 }
 
-hr {
-    color: rgb(201, 189, 189);
+.div-line {
+    background-color: #d6d6d7;
+    height: 1px;
     width: 45px;
     margin-bottom: 35px;
 }
@@ -103,7 +104,7 @@ ul li:last-child {
 .column {
     height: 1000px;
     width: 300px;
-    border: 1px solid rgb(201, 189, 189);
+    border: 1px solid #d6d6d7;
 }
 
 .standard-col {
@@ -117,23 +118,19 @@ ul li:last-child {
 .piano-header {
     height: 35px;
     width: 300px;
-    border-bottom: 1px solid rgb(201, 189, 189);
+    border-bottom: 1px solid #d6d6d7;
     text-align: center;
     line-height: 35px;
     font-size: 1,5em;
 }
 
 .piano-content {
-    padding: 30px 25px 200px 25px;
+    padding: 30px 25px 200px 45px;
 }
 
 .piano-content ul {
     list-style-type: none;
 }
-
-/*.piano-content li {    CHE TIPO DI ALIGN PER FARLI INIZIARE TUTTI DALLO STESSO PUNTO?
-    text-align: justify;
-}*/
 
 .piano-content h2 {
     margin-bottom: 20px;
@@ -180,18 +177,19 @@ ul li:last-child {
 
 .fa-check {
     color: dodgerblue;
+    margin-left: -20px;
 }
 
 .contatti-section {
     width: 100%;
     height: 210px;
-    border: 1px solid rgb(201, 189, 189);
+    border: 1px solid #d6d6d7;
     margin-bottom: 150px;
 }
 
 .contatti-section-header {
     height: 35px;
-    border-bottom: 1px solid rgb(201, 189, 189);
+    border-bottom: 1px solid #d6d6d7;
     text-align: center;
     line-height: 35px;
     font-size: 1,5em;
@@ -385,22 +383,32 @@ ul li:last-child {
 
 .footer-container {
     width: 100%;
-    height: 500px;
+    height: 400px;
     background-color: black;
-    padding: 80px 0 0 120px;
 }
 
-.footer-list {
+.footer-content-container {
+    width: 100%;
+    height: 320px;
+    padding: 80px 120px;
+}
+
+.footer-content {
     width: 15%;
-    height: 40%;
+    height: auto;
     margin-right: 40px;
 }
 
-.footer-list h2 {
+.footer-content h2 {
     margin-bottom: 20px;
+    color: white;
 }
 
-.footer-list li {
+.footer-content ul {
+    display: inline;
+}
+
+.footer-content li {
     color: white;
     line-height: 30px;
     list-style: none;
@@ -465,4 +473,14 @@ ul li:last-child {
 
 #bg-clear {
     background-color: #ffd830;
+}
+
+#div-line-footer {
+    width: 100px;
+    margin-left: 120px;
+}
+
+#language {
+    color: #b6b6b6;
+    margin-left: 120px;
 }
