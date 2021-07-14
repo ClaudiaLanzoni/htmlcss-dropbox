@@ -15,7 +15,7 @@ h1 {
 }
 
 a {
-    color: dodgerblue;
+    color: rgba(0,97,255,255);
 }
 
 .barra-menu {
@@ -36,7 +36,7 @@ a {
 .button {
     padding: 5px 15px;
     border: none;
-    background-color: dodgerblue;
+    background-color: rgba(0,97,255,255);
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
@@ -44,7 +44,7 @@ a {
 
 .jumbotron {
     background-color: rgb(171, 210, 235);
-    height: 650px;
+    height: 100%;
     padding: 90px 120px;
 }
 
@@ -101,11 +101,15 @@ a {
 }
 
 .piano-content {
-    padding: 30px 25px 200px 45px;
+    padding: 30px 35px 200px 35px;
 }
 
 .piano-content ul {
     list-style-type: none;
+}
+
+.piano-content button:only-of-type {
+    padding: 5px 30px;
 }
 
 .piano-price {
@@ -135,8 +139,8 @@ a {
 }
 
 .fa-check {
-    color: dodgerblue;
-    margin-left: -20px;
+    color: rgba(0,97,255,255);
+    margin-left: -15px;
 }
 
 .contatti-section {
@@ -162,7 +166,7 @@ a {
     margin-bottom: 15px
 }
 
-.contatti-section-title>button {
+.button-big {         
     padding: 5px 50px;
 }
 
@@ -237,14 +241,13 @@ a {
 .logos-col {
     width: 30%;
     height: 400px;
-    background-color: darkcyan;
 }
 
 .designit-col {
     width: 40%;
     height: 400px;
     padding: 40px;
-    background-color: rgb(241, 241, 241)
+    background-color: rgba(245,245,245,255)
 }
 
 .designit-col img:only-of-type {
@@ -278,18 +281,17 @@ a {
 .prova-gratuita-section {
     height: 300px;
     width: 100%;
-    background-color: rgb(159, 198, 223);
+    background-color: rgba(180,208,231,255);
     padding: 100px 120px;
 }
 
 .prova-gratuita-section>h1 {
     width: 50%;
-    color: rgb(90, 0, 0);
+    color: rgba(97,8,43,255);
     margin-right: 200px;
 }
 
-.button-prova-gratuita {
-    padding: 5px 50px;
+.prova-gratuita-section button:only-of-type {                  
     background-color: white;
     color: black;
 }
