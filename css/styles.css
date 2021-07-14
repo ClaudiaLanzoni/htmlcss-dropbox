@@ -18,43 +18,19 @@ a {
     color: dodgerblue;
 }
 
-.div-line {
-    background-color: #d6d6d7;
-    height: 1px;
-    width: 45px;
-    margin-bottom: 35px;
-}
-
-.barra-menu ul {
-    display: inline-block;
+.barra-menu {
+    height: 80px;
+    padding: 25px 15px;
+    line-height: 30px;
 }
 
 .barra-menu ul li {
     display: inline-block;
-    vertical-align: middle;
     margin-right: 18px;
 }
 
-ul li:last-child {
-    margin-right: 0;
-}
-
-/*.container-header {
-    max-width: 1200px;
-    margin: 0;
-}*/
-
-.barra-menu {
-    height: 80px;
-    padding: 25px 15px;
-}
-
-.logo-dropbox img {
-    vertical-align: middle;
-}
-
-.first-half-menu {
-    width: 69%;
+.logo-dropbox {
+    margin-right: 18px;
 }
 
 .button {
@@ -63,7 +39,7 @@ ul li:last-child {
     background-color: dodgerblue;
     color: white;
     font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .jumbotron {
@@ -73,21 +49,16 @@ ul li:last-child {
 }
 
 .jumbotron-text {
-    width: 300px;
-    height: 100%;
+    width: 25%;
 }
 
-.jumbotron-text p {
-    margin-bottom: 30px;
+.jumbotron-text>p,
+.contatti-section-content>h4 {
+    margin-bottom: 30px;     
 }
 
-.jumbotron-text button {
+.jumbotron-text button:only-of-type {
     margin-bottom: 10px;
-}
-
-.jumbotron-text :nth-child(3) {
-    margin-bottom: 50px;
-    font-size: 13px;
 }
 
 .db-business {
@@ -97,8 +68,13 @@ ul li:last-child {
     padding-top: 150px;
 }
 
-.radio-buttons {
-    margin-bottom: 20px;
+.radio-buttons,            
+.piano-content h2,
+.piano-content div:nth-of-type(3),
+.piano-content div:nth-of-type(4),
+.partner-section-content>p,
+.operazioni-column>h2 {
+    margin-bottom: 20px;                
 }
 
 .column {
@@ -132,10 +108,6 @@ ul li:last-child {
     list-style-type: none;
 }
 
-.piano-content h2 {
-    margin-bottom: 20px;
-}
-
 .piano-price {
     font-size: 20px;
     font-weight: bold;
@@ -147,31 +119,18 @@ ul li:last-child {
     margin-bottom: 40px;
 }
 
-.piano-content :nth-child(4) {
-    margin-bottom: 20px;
-}
-
-.piano-content :nth-child(5) {
-    margin-bottom: 20px;
-}
-
-.piano-content :nth-child(6) {
+.piano-content div:nth-of-type(5),
+.designit-col>p,
+.faq-section>h2 {
     margin-bottom: 40px;
 }
 
-.piano-content :nth-child(7) {
-    margin-bottom: 25px;
-}
-
-.piano-content :nth-child(8) {
-    margin-bottom: 25px;
-}
-
-.piano-content h4 {
-    margin-bottom: 25px;
-}
-
-.piano-content li {
+.piano-content :nth-child(7),
+.piano-content :nth-child(8),
+.piano-content h4,
+.piano-content li,
+.partner-section-content>h2
+{       
     margin-bottom: 25px;
 }
 
@@ -211,10 +170,6 @@ ul li:last-child {
     margin: 30px;
 }
 
-.contatti-section-content>h4 {
-    margin-bottom: 30px;
-}
-
 .partner-section {
     height: 100%;
     width: 75%;
@@ -222,22 +177,13 @@ ul li:last-child {
     margin-bottom: 100px;
 }
 
-.partner-section>img {
+.partner-section img:only-of-type {
     width: 60%;
-    height: 100%;
 }
 
 .partner-section-content {
     width: 35%;
     margin: 35px 0 35px 35px;
-}
-
-.partner-section-content>h2 {
-    margin-bottom: 25px;
-}
-
-.partner-section-content>p {
-    margin-bottom: 20px;
 }
 
 .button-partner {
@@ -266,10 +212,6 @@ ul li:last-child {
     width: 100%;
     height: 45%;
     margin-bottom: 10px;
-}
-
-.operazioni-column>h2 {
-    margin-bottom: 20px;
 }
 
 .coordinate-div {
@@ -305,13 +247,9 @@ ul li:last-child {
     background-color: rgb(241, 241, 241)
 }
 
-.designit-col>img{
+.designit-col img:only-of-type {
     width: 100px;
     height: 50px;
-}
-
-.designit-col>p {
-    margin-bottom: 40px;
 }
 
 .row-logos {
@@ -330,7 +268,7 @@ ul li:last-child {
     line-height: 200px;
 }
 
-.centered img {
+.centered img{
     width: 100px;
     height: auto;
     vertical-align: middle;
@@ -360,10 +298,6 @@ ul li:last-child {
     width: 75%;
     height: 100%;
     margin: 100px 120px;
-}
-
-.faq-section>h2 {
-    margin-bottom: 40px;
 }
 
 .faq-section-row {
@@ -402,6 +336,13 @@ ul li:last-child {
     color: white;
 }
 
+.div-line {
+    background-color: #d6d6d7;
+    height: 1px;
+    width: 45px;
+    margin-bottom: 35px;
+}
+
 .underline {
     text-decoration: underline;
 }
@@ -421,14 +362,19 @@ ul li:last-child {
 }
 
 #jumbotron-title {
-    font-size: 4.5em;
+    font-size: 5em;
     margin-bottom: 30px;
 }
 
 #jumbotron-img {
-    max-width: 800px;
-    height: 430px;
-    margin-left: 30px;
+    width: 70%;
+    position: absolute;
+    left: 30%;
+    top: 0%;
+}
+
+.relative {
+    position: relative;
 }
 
 #bg-designit {

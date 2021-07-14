@@ -15,30 +15,27 @@
 </head>
 <body>
     <header>
-        <div class="container-header">  <!--Menu in alto-->
-            <div class="barra-menu">
-                <nav>  
-                    <ul class="first-half-menu">
-                        <li>
-                            <div class="logo-dropbox">
-                                <img src="img/logo-small.png" alt="logo Dropbox">
-                            </div>
-                        </li>
+            <!--<div class="header-container">-->   <!--Menu in alto-->
+                <div class="barra-menu clearfix">
+                    <div class="logo-dropbox float-l">
+                        <img src="img/logo-small.png" alt="logo Dropbox">
+                    </div>
+                    
+                    <ul class="float-l">
                         <li>Perchè Dropbox?</li>
                         <li>Funzioni</li>
                         <li>Piani e prezzi</li>
                     </ul>
-                    <ul>
+                    
+                    <button class="button float-r">Inizia</button>
+
+                    <ul class="float-r">
                         <li>Supporto</li>
                         <li>Contatta l'ufficio vendite</li>
                         <li>Accedi</li>
-                        <li>
-                            <button class="button">Inizia</button>
-                        </li>
-                    </ul>
-                </nav>   
-            </div>         
-        </div>
+                    </ul>    
+                </div>
+            <!--</div>-->        
     </header>
 
     <main>
@@ -46,16 +43,15 @@
         <section> <!--Sezione Jumbotron-->
             <div class="jumbotron">
                 <h1 id="jumbotron-title">Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
-                <div class="clearfix">
-                    <div class="jumbotron-text float-l">
+                <div class="relative">
+                    <div class="jumbotron-text">
                         <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business é più di uno spazio di archiviazione sicuro: é un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
                         <button class="button">Inizia la tua prova gratuita</button>
-                        <div>Annulla in qualsiasi momento</div>
+                        <p>Annulla in qualsiasi momento</p>
                         <div><i class="fas fa-arrow-down fa-2x"></i></div>
                     </div>
-                    <div class="float-r">
-                        <img id="jumbotron-img" src="img/jumbo.png" alt="immagine esempio Dropbox">
-                    </div>
+                    
+                    <img id="jumbotron-img" src="img/jumbo.png" alt="immagine esempio Dropbox">    
                 </div>
             </div>
         </section>  
