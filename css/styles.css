@@ -18,6 +18,12 @@ a {
     color: rgba(0,97,255,255);
 }
 
+.center {
+    height: 100%;
+    width: 75%;
+    margin: auto;
+}
+
 .barra-menu {
     height: 80px;
     padding: 25px 15px;
@@ -61,10 +67,7 @@ a {
     margin-bottom: 10px;
 }
 
-.db-business {
-    height: 100%;
-    width: 75%;
-    margin: auto;
+.db-business {       
     padding-top: 150px;
 }
 
@@ -174,10 +177,7 @@ a {
     margin: 30px;
 }
 
-.partner-section {
-    height: 100%;
-    width: 75%;
-    margin: auto;
+.partner-section {                       
     margin-bottom: 100px;
 }
 
@@ -196,10 +196,7 @@ a {
     color: black;
 }
 
-.operazioni-section {
-    height: 100%;
-    width: 75%;
-    margin: auto;
+.operazioni-section {              
     margin-bottom: 200px;
 }
 
@@ -222,10 +219,7 @@ a {
     margin: 0 50px 0 50px;
 }
 
-.team-section-header {
-    height: 100%;
-    width: 75%;
-    margin: auto;
+.team-section-header {                  
     margin-bottom: 40px;
 }
 
@@ -296,9 +290,7 @@ a {
     color: black;
 }
 
-.faq-section {
-    width: 75%;
-    height: 100%;
+.faq-section {                          
     margin: 100px 120px;
 }
 
